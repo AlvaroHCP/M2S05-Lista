@@ -1,0 +1,10 @@
+
+
+
+-- Exercício 3
+
+
+SELECT * FROM times WHERE nome LIKE 'E%';
+
+
+SELECT * FROM times WHERE nome LIKE 'E%' AND sigla LIKE 'U%';
