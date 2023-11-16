@@ -1,0 +1,13 @@
+
+
+
+-- Exercício 6
+
+
+
+
+SELECT * FROM times WHERE grupo IN ('E','H') ORDER BY grupo;
+
+
+SELECT * FROM times WHERE grupo IN ('E','H') ORDER BY nome;
+
