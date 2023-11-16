@@ -1,0 +1,11 @@
+
+
+
+-- Exercício 9
+
+
+
+SELECT DISTINCT grupo FROM times ORDER BY grupo ASC;
+
+
+SELECT grupo, count(*) FROM times GROUP BY grupo ORDER BY grupo ASC;
